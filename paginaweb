@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+
+content="width=device-width, initial-scale=1.0">
+    <title>Jornada de Puertas Abiertas - 
+
+FIO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 
+
+0.1);
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-
+
+fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jornada de Puertas Abiertas - 
+
+Facultad de Ingeniería de Oberá</h1>
+        <p>El día 12 de marzo, en el marco de 
+
+una jornada de puertas abiertas de la Facultad 
+
+de Ingeniería de Oberá, se realizó un recorrido 
+
+con los ingresantes a través de las 
+
+instalaciones de la FIO, donde se visitó el GIDE 
+
+(Grupo de Investigación en Electrónica), el cual 
+
+forma parte del IMAM (Instituto de Materiales de 
+
+Misiones).</p>
+        <p>En la visita se presentaron los 
+
+objetivos del grupo, las propuestas para 
+
+posgrados y carreras de investigación, y se 
+
+invitó a participar en adscripciones a 
+
+investigación o a través de becas.</p>
+        <div class="image-gallery">
+            <img src="gide1.jpeg" alt="Visita al 
+
+GIDE 1">
+            <img src="gide2.jpeg" alt="Visita al 
+
+GIDE 2">
+            <img src="gide3.jpeg" alt="Visita al 
+
+GIDE 3">
+            <img src="gide4.jpeg" alt="Visita al 
+
+GIDE 4">
+        </div>
+    </div>
+</body>
+</html>
